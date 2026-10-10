@@ -1,0 +1,77 @@
+[
+  {
+    "id": "01",
+    "referenced_image_paths": [
+      "/workspace/generated_images/exec-773a37e0-1f83-4988-8b98-9df14bce3e3c.png"
+    ],
+    "transparent_background": false,
+    "prompt": "这是对一张已完成海报的单行中文文字校正任务。只编辑顶部系列名下面的副标题那一行，不得重新创作、重新排版或改变任何其他画面区域。保留原图1024×1536、竖版2:3、深海军蓝与冷白色彩、所有设备/人物的位置、光影、摄影风格、卡片、底部文字以及留白。\n\n顶部系列名“有些风险，不会弹窗”原样保持。将它正下方旧副标题“只有电脑的实验室，也不能掉以轻心。”完整删除，精准替换为下面这一句新副标题：\n别让熟悉的环境，成为放松警惕的理由。\n\n新副标题全文必须逐字准确、一行横排、整体居中，深海军蓝中文黑体、字重清楚、笔画完整，保留中文逗号和句号。适当微调字间距与字号让完整一句自然排下，字号不能小于原副标题字号的80%，不得换行，不得省字、改字、多加任何字或标点。不可挤压、移动或缩小下方大标题。旧副标题彻底消失，没有叠字残影。新副标题仅在原有副标题位置出现一次。\n\n除这一行副标题外，所有内容必须原样保留。特别锁定以下原有文字和图像细节：\n主标题两行“一直没出事，”“不等于没风险。”；橙色卡“禁止串接”；底部“插排不串接。”“增加设备，先请专业人员核定供电容量。”；编号“隐患示意 · 01”。两个插排与仅两条白色电源线保持不变，近处插排左端封闭，右端白线连接远处插排，远处右端白线延伸画外，不能增加线缆、适配器、黑色回接。\n\n只输出这张原海报的精确单行文字修改成品，不添加边框、logo、水印、二维码或任何额外文字。",
+    "started_at": "2026-10-04 02:04:42 UTC",
+    "completed_at": "2026-10-04 02:06:52 UTC",
+    "status": "generated_and_visually_reviewed",
+    "output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-d65d3b99-a222-4fbe-b61b-7f20b200a035.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "returned_path": "/workspace/generated_images/exec-d65d3b99-a222-4fbe-b61b-7f20b200a035.png",
+    "retained_copy_path": "/workspace/work/lab_assets/notice-01-v3.png",
+    "dimensions_px": [
+      1024,
+      1536
+    ],
+    "qa_at": "2026-10-04T02:07:56.546022+00:00",
+    "qa": {
+      "subtitle": "逐字目视核对为：别让熟悉的环境，成为放松警惕的理由。单行居中，标点完整，无旧副标题残留。",
+      "layout": "副标题字号与原图接近，清楚可读，未挤压或移动大标题。",
+      "other_text": "系列名、各张两行大标题、橙色卡片、底部动作及编号均保持准确。",
+      "scene": "两插排与两白线连接关系保持；没有恢复多余线缆或黑色回接。"
+    }
+  },
+  {
+    "id": "02",
+    "referenced_image_paths": [
+      "/workspace/generated_images/exec-7743e459-5133-4523-a600-c1829d60ce5c.png"
+    ],
+    "transparent_background": false,
+    "prompt": "这是对一张已完成海报的单行中文文字校正任务。只编辑顶部系列名下面的副标题那一行，不得重新创作、重新排版或改变任何其他画面区域。保留原图1024×1536、竖版2:3、深海军蓝与冷白色彩、所有设备/人物的位置、光影、摄影风格、卡片、底部文字以及留白。\n\n顶部系列名“有些风险，不会弹窗”原样保持。将它正下方旧副标题“只有电脑的实验室，也不能掉以轻心。”完整删除，精准替换为下面这一句新副标题：\n别让熟悉的环境，成为放松警惕的理由。\n\n新副标题全文必须逐字准确、一行横排、整体居中，深海军蓝中文黑体、字重清楚、笔画完整，保留中文逗号和句号。适当微调字间距与字号让完整一句自然排下，字号不能小于原副标题字号的80%，不得换行，不得省字、改字、多加任何字或标点。不可挤压、移动或缩小下方大标题。旧副标题彻底消失，没有叠字残影。新副标题仅在原有副标题位置出现一次。\n\n除这一行副标题外，所有内容必须原样保留。特别锁定以下原有文字和图像细节：\n主标题两行“只是跑一夜，”“也要有人负责。”；橙色卡“风口不堆物”；底部“不挡风口，不堆杂物。”“连续运行按规程落实责任、监测与异常响应。”；编号“隐患示意 · 02”。书本纸箱挡住下半风口，上半蜂窝网孔保持清楚，不新增人物，不增加烟火。\n\n只输出这张原海报的精确单行文字修改成品，不添加边框、logo、水印、二维码或任何额外文字。",
+    "started_at": "2026-10-04 02:04:42 UTC",
+    "completed_at": "2026-10-04 02:06:52 UTC",
+    "status": "generated_and_visually_reviewed",
+    "output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-773b5e12-83ae-42e1-9b31-dc688f90d31d.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "returned_path": "/workspace/generated_images/exec-773b5e12-83ae-42e1-9b31-dc688f90d31d.png",
+    "retained_copy_path": "/workspace/work/lab_assets/notice-02-v3.png",
+    "dimensions_px": [
+      1024,
+      1536
+    ],
+    "qa_at": "2026-10-04T02:07:56.546129+00:00",
+    "qa": {
+      "subtitle": "逐字目视核对为：别让熟悉的环境，成为放松警惕的理由。单行居中，标点完整，无旧副标题残留。",
+      "layout": "副标题字号与原图接近，清楚可读，未挤压或移动大标题。",
+      "other_text": "系列名、各张两行大标题、橙色卡片、底部动作及编号均保持准确。",
+      "scene": "书与纸箱挡下半部风口保持；未新增人物、烟或火。"
+    }
+  },
+  {
+    "id": "03",
+    "referenced_image_paths": [
+      "/workspace/generated_images/exec-7ca244e0-3576-4ec2-8c10-cce5016ee769.png"
+    ],
+    "transparent_background": false,
+    "prompt": "这是对一张已完成海报的单行中文文字校正任务。只编辑顶部系列名下面的副标题那一行，不得重新创作、重新排版或改变任何其他画面区域。保留原图1024×1536、竖版2:3、深海军蓝与冷白色彩、所有设备/人物的位置、光影、摄影风格、卡片、底部文字以及留白。\n\n顶部系列名“有些风险，不会弹窗”原样保持。将它正下方旧副标题“只有电脑的实验室，也不能掉以轻心。”完整删除，精准替换为下面这一句新副标题：\n别让熟悉的环境，成为放松警惕的理由。\n\n新副标题全文必须逐字准确、一行横排、整体居中，深海军蓝中文黑体、字重清楚、笔画完整，保留中文逗号和句号。适当微调字间距与字号让完整一句自然排下，字号不能小于原副标题字号的80%，不得换行，不得省字、改字、多加任何字或标点。不可挤压、移动或缩小下方大标题。旧副标题彻底消失，没有叠字残影。新副标题仅在原有副标题位置出现一次。\n\n除这一行副标题外，所有内容必须原样保留。特别锁定以下原有文字和图像细节：\n主标题两行“闻到焦糊味，”“别等系统报警。”；桌面橙色卡“人员安全优先”；底部“远离、提醒，按预案撤离。”“不为保存数据停留，不返回取设备。”“发现或怀疑火情，在安全处及时拨打119。”；编号“情景示意 · 03”。普通蓝衬衫长裤成年人双手空空、背向设备走入明亮室内公共走廊，提示卡保持在桌上、通道完全畅通；不能改为阳台，不能把牌移到地上，不改变撤离方向。\n\n只输出这张原海报的精确单行文字修改成品，不添加边框、logo、水印、二维码或任何额外文字。",
+    "started_at": "2026-10-04 02:04:42 UTC",
+    "completed_at": "2026-10-04 02:06:52 UTC",
+    "status": "generated_and_visually_reviewed",
+    "output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-b523777e-78c9-495d-b0ab-4d83d7ec6362.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "returned_path": "/workspace/generated_images/exec-b523777e-78c9-495d-b0ab-4d83d7ec6362.png",
+    "retained_copy_path": "/workspace/work/lab_assets/notice-03-v3.png",
+    "dimensions_px": [
+      1024,
+      1536
+    ],
+    "qa_at": "2026-10-04T02:07:56.546230+00:00",
+    "qa": {
+      "subtitle": "逐字目视核对为：别让熟悉的环境，成为放松警惕的理由。单行居中，标点完整，无旧副标题残留。",
+      "layout": "副标题字号与原图接近，清楚可读，未挤压或移动大标题。",
+      "other_text": "系列名、各张两行大标题、橙色卡片、底部动作及编号均保持准确。",
+      "scene": "普通衣服空手人物继续背向设备走入室内走廊；桌面纸卡与畅通出口保持。"
+    }
+  }
+]

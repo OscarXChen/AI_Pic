@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="light">
+<title>屏幕之外的三次判断｜有些风险，不会弹窗</title>
+<style>
+:root{--ink:#142a47;--muted:#536579;--line:#cfd8e2;--blue:#133c64;--orange:#b54712;--orange-bg:#fff1e6;--white:#fff;--page:#edf2f7}*{box-sizing:border-box}body{margin:0;background:var(--page);color:var(--ink);font-family:system-ui,-apple-system,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;line-height:1.7}button{font:inherit}button:focus-visible{outline:3px solid #b54712;outline-offset:5px}main{width:min(100% - 48px,920px);margin:0 auto;padding:48px 0 32px}header{margin-bottom:30px}.eyebrow{margin:0 0 13px;color:var(--blue);font-size:12px;font-weight:750;letter-spacing:.13em}.series{display:inline-block;border-left:4px solid var(--orange);padding-left:12px}h1{margin:0;font-size:clamp(27px,4.8vw,44px);line-height:1.25;letter-spacing:-.035em}header .lead{margin:16px 0 0;color:var(--ink);font-size:17px;font-weight:650}header .context{margin:9px 0 0;color:var(--muted);font-size:14px;line-height:1.8}.exercise{border:1px solid var(--line);background:var(--white);box-shadow:0 16px 50px #16325309}.topline{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:18px 28px;border-bottom:1px solid var(--line)}.step-label{font-size:13px;font-weight:750;letter-spacing:.02em}.steps{display:flex;gap:7px;margin:0;padding:0;list-style:none}.steps li{width:29px;height:4px;background:#d9e2eb}.steps li.active{background:var(--orange)}.steps li.done{background:var(--blue)}.content{padding:30px 32px 32px}.theme{margin:0 0 8px;color:var(--orange);font-size:13px;font-weight:800;letter-spacing:.08em}h2{margin:0;font-size:clamp(22px,3.3vw,29px);font-weight:750;line-height:1.5;letter-spacing:-.02em}.instruction{margin:16px 0 20px;color:var(--muted);font-size:14px}.choices{display:grid;gap:12px}.choice{display:flex;align-items:flex-start;gap:14px;width:100%;border:1px solid #b6c4d2;border-radius:0;background:#fff;color:var(--ink);padding:17px 19px;text-align:left;cursor:pointer;transition:border-color .15s,background .15s}.choice:hover:not(:disabled){background:#f2f6fa;border-color:var(--blue)}.choice:disabled{cursor:default;opacity:1}.letter{display:flex;align-items:center;justify-content:center;flex-shrink:0;width:28px;height:28px;margin-top:1px;background:#edf2f7;color:var(--blue);font-size:13px;font-weight:800}.choice-text{flex:1;min-width:0;font-size:16px;font-weight:600;line-height:1.7}.choice.correct{border:2px solid var(--blue);padding:16px 18px;background:#f2f6fa}.choice.correct .letter{background:var(--blue);color:#fff}.choice.incorrect{border:2px solid var(--orange);padding:16px 18px;background:var(--orange-bg)}.choice.incorrect .letter{background:var(--orange);color:#fff}.choice-mark{display:block;font-size:12px;font-weight:700;letter-spacing:.02em}.choice.incorrect .choice-mark{color:var(--orange)}.feedback{margin-top:24px;padding:19px 21px;background:#edf3f8;border-left:4px solid var(--blue)}.feedback h3{margin:0 0 8px;font-size:16px}.feedback p{margin:0;font-size:15px;line-height:1.85}.feedback.wrong{background:var(--orange-bg);border-left-color:var(--orange)}.actions{display:flex;justify-content:flex-end;margin-top:22px}.primary{min-height:48px;border:1px solid var(--blue);padding:11px 23px;background:var(--blue);color:white;font-weight:700;cursor:pointer}.primary:hover{background:#082b4d}.finish{text-align:left}.finish h2{font-size:clamp(25px,4vw,35px);line-height:1.45}.score{display:flex;align-items:baseline;gap:10px;margin:24px 0;padding-bottom:24px;border-bottom:1px solid var(--line);font-size:14px}.score strong{font-size:42px;line-height:1.2;letter-spacing:-.04em}.reminders{margin:0 0 24px;padding:0;list-style:none}.reminders li{display:flex;align-items:flex-start;gap:12px;margin:13px 0;font-size:15px}.reminders span{font-size:12px;color:var(--orange);font-weight:800;padding-top:3px;flex-shrink:0}.closing-note{margin:0 0 24px;font-size:15px;line-height:1.8}.small-note{color:var(--muted);font-size:13px;margin:20px 0 0}footer{display:flex;justify-content:space-between;align-items:flex-start;gap:16px;margin-top:22px;color:var(--muted);font-size:12px;line-height:1.8}footer p{margin:0}.privacy{flex-shrink:0}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}[hidden]{display:none!important}@media(max-width:540px){main{width:calc(100% - 32px);padding-top:28px}header{margin-bottom:24px}.eyebrow{font-size:10px;letter-spacing:.07em}header .lead{font-size:15px}.topline{padding:15px 18px}.content{padding:24px 18px}.choice{gap:10px;padding:14px 12px}.choice.correct,.choice.incorrect{padding:13px 11px}.choice-text{font-size:15px}.feedback{padding:16px 14px}.feedback p{font-size:14px}.actions .primary{width:100%}footer{display:block}footer p+p{margin-top:5px}.finish .primary{width:100%}}@media(prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<main>
+<header>
+<p class="eyebrow"><span class="series">有些风险，不会弹窗 · 配套课堂练习</span></p>
+<h1>屏幕之外的三次判断</h1>
+<p class="lead">别让熟悉的环境，成为放松警惕的理由。</p>
+<p class="context">一直没出事，不等于没风险；程序没报错，也不能省掉现场检查。</p>
+</header>
+<section class="exercise" aria-label="三次情景判断">
+<div class="topline"><span class="step-label" id="stepLabel">第 1 / 3 次判断</span><ol class="steps" aria-hidden="true"><li class="active"></li><li></li><li></li></ol></div>
+<div class="content">
+<div id="questionView">
+<p class="theme" id="theme">01 / 接入之前</p>
+<h2 id="questionTitle" tabindex="-1">新加一台计算机，现有插排插口不够。</h2>
+<p class="instruction" id="instruction">此时，你会先怎么做？请选择一项。</p>
+<div class="choices" id="choices" role="group" aria-labelledby="questionTitle" aria-describedby="instruction"></div>
+<div id="feedback" class="feedback" hidden><h3 id="feedbackTitle"></h3><p id="feedbackText"></p></div>
+<div class="actions" id="nextWrap" hidden><button type="button" class="primary" id="nextButton">下一次判断 →</button></div>
+</div>
+<div id="finishView" class="finish" hidden>
+<p class="theme">三次判断 · 练习结束</p>
+<h2 id="finishTitle" tabindex="-1">记住判断，<br>现场按规程执行</h2>
+<p class="score" id="score" aria-live="polite"></p>
+<ul class="reminders"><li><span>01</span>接入前，核定供电容量和接入方案。</li><li><span>02</span>运行中，保持散热，落实责任与异常响应。</li><li><span>03</span>异常时，远离、提醒、按预案撤离和求助。</li></ul>
+<p class="closing-note">熟悉设备，不等于可以省略检查。把警惕落实到每一次接入、离开和异常响应。</p>
+<button type="button" class="primary" id="retryButton">重新练习</button>
+<p class="small-note">被困时立即求助，不冒险移动。</p>
+</div>
+</div>
+</section>
+<div id="announcement" class="sr-only" aria-live="polite" aria-atomic="true"></div>
+<footer><p>教学情景，不替代本单位安全规程和应急预案。</p><p class="privacy">不收集姓名 · 不采集数据</p></footer>
+</main>
+<script>
+'use strict';
+(() => {
+  const questions = [
+    { theme:'01 / 接入之前', title:'新加一台计算机，现有插排插口不够。', options:['再串接一个插排','先请专业人员核定供电容量和接入方案'], correct:1, reason:'插排不串接；孔数多不代表容量变大，另一个墙插也不一定是独立回路。请先由专业人员核定供电容量和接入方案。' },
+    { theme:'02 / 离开之前', title:'计算任务需要过夜，小服务器风口旁堆有纸箱，尚无异常。', options:['先移开阻挡物，并按规程落实责任、监测和异常响应','程序运行正常，直接离开'], correct:0, reason:'只是跑一夜，也要有人负责。持续运行本身不等于违规；不挡风口、不堆杂物；按单位规程管理，不一律人走断电。移开阻挡物后，还要落实责任、监测和异常响应。' },
+    { theme:'03 / 异常出现', title:'闻到焦糊味，屏幕没有报警。', options:['先保存数据、关机再走','远离并提醒他人，按预案撤离和求助'], correct:1, reason:'别靠近、触摸或拆开设备；不为数据停留，不返回取物；发现或怀疑火情，在安全处及时拨打119。被困时立即求助，不冒险移动。' }
+  ];
+  const $ = id => document.getElementById(id);
+  let current = 0;
+  let correctCount = 0;
+  let answered = false;
+  function render(focus = false) {
+    const q = questions[current];
+    answered = false;
+    $('questionView').hidden = false;
+    $('finishView').hidden = true;
+    $('stepLabel').textContent = `第 ${current + 1} / 3 次判断`;
+    document.querySelectorAll('.steps li').forEach((step,index) => { step.className = index < current ? 'done' : index === current ? 'active' : ''; });
+    $('theme').textContent = q.theme;
+    $('questionTitle').textContent = q.title;
+    $('feedback').hidden = true;
+    $('feedbackTitle').textContent = '';
+    $('feedbackText').textContent = '';
+    $('announcement').textContent = '';
+    $('nextWrap').hidden = true;
+    $('nextButton').textContent = current === questions.length - 1 ? '回顾三次判断 →' : '下一次判断 →';
+    $('choices').replaceChildren();
+    q.options.forEach((option,index) => {
+      const button = document.createElement('button');
+      button.type = 'button'; button.className = 'choice'; button.dataset.index = String(index);
+      const letter = document.createElement('span'); letter.className = 'letter'; letter.textContent = index === 0 ? 'A' : 'B'; letter.setAttribute('aria-hidden','true');
+      const label = document.createElement('span'); label.className = 'choice-text'; label.textContent = option;
+      button.append(letter,label);
+      button.addEventListener('click',() => answer(index));
+      $('choices').append(button);
+    });
+    if (focus) $('questionTitle').focus();
+  }
+  function answer(index) {
+    if (answered) return;
+    answered = true;
+    const q = questions[current];
+    const isCorrect = index === q.correct;
+    if (isCorrect) correctCount++;
+    document.querySelectorAll('.choice').forEach((button,i) => {
+      button.disabled = true;
+      if (i === q.correct || i === index) {
+        button.classList.add(i === q.correct ? 'correct' : 'incorrect');
+        const mark = document.createElement('span'); mark.className = 'choice-mark';
+        mark.textContent = i === q.correct ? (isCorrect ? '✓ 你的选择 · 正确' : '✓ 正确做法') : '× 你的选择';
+        button.querySelector('.choice-text').append(mark);
+      }
+    });
+    $('feedback').className = isCorrect ? 'feedback' : 'feedback wrong';
+    $('feedback').hidden = false;
+    $('feedbackTitle').textContent = isCorrect ? '判断正确，请记住理由。' : '这一步需要调整，请记住理由。';
+    $('feedbackText').textContent = q.reason;
+    $('announcement').textContent = $('feedbackTitle').textContent + ' ' + q.reason;
+    $('nextWrap').hidden = false;
+    $('nextButton').focus({preventScroll:true});
+  }
+  $('nextButton').addEventListener('click',() => {
+    if (!answered) return;
+    if (current < questions.length - 1) { current++; render(true); }
+    else {
+      $('questionView').hidden = true;
+      $('finishView').hidden = false;
+      $('stepLabel').textContent = '已完成 3 次判断';
+      document.querySelectorAll('.steps li').forEach(step => { step.className = 'done'; });
+      $('score').replaceChildren();
+      const label = document.createElement('span'); label.textContent = '本轮答对';
+      const value = document.createElement('strong'); value.textContent = `${correctCount} / 3`;
+      const unit = document.createElement('span'); unit.textContent = '题';
+      $('score').append(label,value,unit);
+      $('finishTitle').focus();
+    }
+  });
+  $('retryButton').addEventListener('click',() => { current = 0; correctCount = 0; render(true); });
+  render();
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+{
+  "file": "/workspace/work/companion.html",
+  "bytes": 11846,
+  "checks": [
+    {
+      "width": 320,
+      "noHorizontalOverflow": true,
+      "allCorrectAndWrongFeedback": true,
+      "keyboardEnterAndSpace": true,
+      "retryResets": true,
+      "runtimeErrors": [],
+      "externalRequests": []
+    },
+    {
+      "width": 1280,
+      "noHorizontalOverflow": true,
+      "allCorrectAndWrongFeedback": true,
+      "keyboardEnterAndSpace": true,
+      "retryResets": true,
+      "runtimeErrors": [],
+      "externalRequests": []
+    }
+  ],
+  "revisions": [
+    {
+      "testedAt": "2026-10-04T01:56:19.834Z",
+      "revision": "强化只有电脑的实验室同样需要警惕的叙事",
+      "bytes": 12294,
+      "scope": "仅检查新增文案在320px和1280px下的溢出，以及第2题正误反馈；保留此前完整逻辑测试结果。",
+      "loadingMethod": "Playwright setContent",
+      "checks": [
+        {
+          "width": 320,
+          "question2Choice": "correct",
+          "newNarrativePresent": true,
+          "question2FeedbackCorrect": true,
+          "noHorizontalOverflow": true
+        },
+        {
+          "width": 320,
+          "question2Choice": "incorrect",
+          "newNarrativePresent": true,
+          "question2FeedbackCorrect": true,
+          "noHorizontalOverflow": true
+        },
+        {
+          "width": 1280,
+          "question2Choice": "correct",
+          "newNarrativePresent": true,
+          "question2FeedbackCorrect": true,
+          "noHorizontalOverflow": true
+        },
+        {
+          "width": 1280,
+          "question2Choice": "incorrect",
+          "newNarrativePresent": true,
+          "question2FeedbackCorrect": true,
+          "noHorizontalOverflow": true
+        }
+      ]
+    },
+    {
+      "testedAt": "2026-10-04T02:05:32.773835+00:00",
+      "revision": "共同副标题精炼",
+      "scope": "仅确认新副标题显示正确及两种宽度无横向溢出，交互逻辑未改动。",
+      "checks": [
+        {
+          "width": 320,
+          "refinedSubtitlePresent": true,
+          "noHorizontalOverflow": true
+        },
+        {
+          "width": 1280,
+          "refinedSubtitlePresent": true,
+          "noHorizontalOverflow": true
+        }
+      ]
+    }
+  ]
+}

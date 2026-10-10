@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-04",
+  "scope": "像素、印刷分辨率元数据、文件大小和像素一致性；不代表专业安全认证",
+  "images": [
+    {
+      "file": "01_供电安全.png",
+      "pixels": [
+        1024,
+        1536
+      ],
+      "dpi": [
+        150.01239999999999,
+        150.01239999999999
+      ],
+      "bytes": 1638750,
+      "under_10MB": true,
+      "sha256": "2c87dc8603da4868d85fb2512f1e557fd1a72bd6417bbedf151c852c74288823",
+      "original_sha256": "b739844d89717fd3641999699ba26ca371c8f4d178e421baab602775e15f7a97",
+      "pixel_data_unchanged": true
+    },
+    {
+      "file": "02_散热与连续运行.png",
+      "pixels": [
+        1024,
+        1536
+      ],
+      "dpi": [
+        150.01239999999999,
+        150.01239999999999
+      ],
+      "bytes": 1803798,
+      "under_10MB": true,
+      "sha256": "9f655afc043fb04adb5cc5021017fab7f19029d9bc3fb16d04aed61adca3317c",
+      "original_sha256": "0333c113f9f4f275458dd1400c93be187c84b64e1bcb4e929a50ea07635f4847",
+      "pixel_data_unchanged": true
+    },
+    {
+      "file": "03_异常与撤离.png",
+      "pixels": [
+        1024,
+        1536
+      ],
+      "dpi": [
+        150.01239999999999,
+        150.01239999999999
+      ],
+      "bytes": 1713568,
+      "under_10MB": true,
+      "sha256": "a61736d99b760bdc57868e557f007dd2291ceb496c901b60a5928eec9999bc7c",
+      "original_sha256": "6ff40d88a6a5d968b6fe91c86e037687fb64c0db6a59750452d9bf2cfc2aa9b8",
+      "pixel_data_unchanged": true
+    }
+  ],
+  "intro_characters_including_punctuation": 219
+}

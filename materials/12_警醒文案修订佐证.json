@@ -1,0 +1,74 @@
+[
+  {
+    "id": "01",
+    "referenced_image_paths": [
+      "/workspace/generated_images/exec-6fcf1082-9ec4-4592-bb21-5e956a2cf876.png"
+    ],
+    "transparent_background": false,
+    "prompt": "对给定的已完成海报做精准的中文文字编辑，保持原图1024×1536、2:3竖版、构图、背景、摄影设备/人物、颜色、橙色卡片、光影以及所有不需改变的文字完全不变。不要重新创作画面，不增加任何元素或文字。全部文字必须是清晰准确的简体中文，中文黑体笔画完整、无乱码、标点准确，维持原有深海军蓝和冷白留白设计。\n\n共同修改：顶部居中的系列名“有些风险，不会弹窗”原样保留。它下面原来一行“计算机与小型服务器实验室安全”，完整替换为一行新的副标题：“只有电脑的实验室，也不能掉以轻心。”。新副标题必须只有这一整行、完整居中，字重清楚且能读，合理调整字号使其在白边内完整排下，保留与系列名和大标题之间的精致间距。不得出现被替换的旧副标题；“只有电脑的实验室，也不能掉以轻心。”不得缺字、改字、多字或漏标点。\n\n本张01还要替换上方两行巨大的主标题。原来的“插口够，”“不等于容量够。”全部删除，分别替换为如下两行：\n一直没出事，\n不等于没风险。\n保持两行、巨大深海军蓝中文黑体，沿用原图标题版式的醒目气势，调整字号以适合每行长度，四周白边足够。每个字和逗号、句号均须准确。\n\n其他画面严格原样保留：白桌面上的两个白色插排，只保留现有两条白色供电线。近处插排左端封闭、没有线；其右端一条白线连续接到远处插排上的白色电源插头；远处插排右端另一条白线延伸到画外。绝不恢复任何黑线、适配器、多余插头或U形回接。橙色纸卡“禁止串接”保持原位置与文字；这是被禁止的隐患示意，不能变成正确示范。电脑屏幕平静抽象，不增告警或绿色安全勾。底部动作和编号全部原样保留。\n\n修改后全张指定文字应完整为：\n有些风险，不会弹窗\n只有电脑的实验室，也不能掉以轻心。\n一直没出事，\n不等于没风险。\n禁止串接\n插排不串接。\n增加设备，先请专业人员核定供电容量。\n隐患示意 · 01\n\n只做上方指定文字的替换，其他不修改。",
+    "started_at": "2026-10-04 01:56:14 UTC",
+    "completed_at": "2026-10-04 01:58:23 UTC",
+    "status": "generated_and_visually_reviewed",
+    "output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-773a37e0-1f83-4988-8b98-9df14bce3e3c.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "returned_path": "/workspace/generated_images/exec-773a37e0-1f83-4988-8b98-9df14bce3e3c.png",
+    "retained_copy_path": "/workspace/work/lab_assets/notice-01-v2.png",
+    "dimensions_px": [
+      1024,
+      1536
+    ],
+    "qa": {
+      "text": "共同副标题、两行新大标题、禁止串接卡片、底部两行动作及编号逐字目视核对准确，无旧副标题残留。",
+      "scene": "近处插排左端封闭；右端白线连远处插排插头、远处右端白线到画外。仅两根白线，无黑色回接和适配器恢复，禁止提示明确。",
+      "notes": "新副标题沿用原图较细字重，清晰可读；与02/03字重略不同。"
+    },
+    "qa_at": "2026-10-04T01:59:33.604070+00:00"
+  },
+  {
+    "id": "02",
+    "referenced_image_paths": [
+      "/workspace/generated_images/exec-61d57c00-a7e2-43eb-a66a-d89ba218dc8f.png"
+    ],
+    "transparent_background": false,
+    "prompt": "对给定的已完成海报做精准的中文文字编辑，保持原图1024×1536、2:3竖版、构图、背景、摄影设备/人物、颜色、橙色卡片、光影以及所有不需改变的文字完全不变。不要重新创作画面，不增加任何元素或文字。全部文字必须是清晰准确的简体中文，中文黑体笔画完整、无乱码、标点准确，维持原有深海军蓝和冷白留白设计。\n\n共同修改：顶部居中的系列名“有些风险，不会弹窗”原样保留。它下面原来一行“计算机与小型服务器实验室安全”，完整替换为一行新的副标题：“只有电脑的实验室，也不能掉以轻心。”。新副标题必须只有这一整行、完整居中，字重清楚且能读，合理调整字号使其在白边内完整排下，保留与系列名和大标题之间的精致间距。不得出现被替换的旧副标题；“只有电脑的实验室，也不能掉以轻心。”不得缺字、改字、多字或漏标点。\n\n本张02还要替换上方两行巨大的主标题。原来的“机器能通宵，”“责任不能空档。”全部删除，分别替换为如下两行：\n只是跑一夜，\n也要有人负责。\n保持两行、巨大深海军蓝中文黑体，沿用原图标题版式的醒目气势，调整字号以适合每行长度，四周白边足够。每个字和逗号、句号均须准确。\n\n其他画面严格原样保留：书本和纸箱明确遮挡电脑/服务器的下半部进风口，上半部蜂窝网孔清晰可辨；橙色纸卡“风口不堆物”保持原位置和文字。后方电脑屏幕平静抽象，不增加告警或安全绿勾。不要增加任何人物，尤其不要增加值夜班、熬夜或睡觉人物，不暗示责任等于必须在现场熬夜。不要增加烟、火花、火焰。底部正确动作和编号全部原样保留。\n\n修改后全张指定文字应完整为：\n有些风险，不会弹窗\n只有电脑的实验室，也不能掉以轻心。\n只是跑一夜，\n也要有人负责。\n风口不堆物\n不挡风口，不堆杂物。\n连续运行按规程落实责任、监测与异常响应。\n隐患示意 · 02\n\n只做上方指定文字的替换，其他不修改。",
+    "started_at": "2026-10-04 01:56:14 UTC",
+    "completed_at": "2026-10-04 01:58:23 UTC",
+    "status": "generated_and_visually_reviewed",
+    "output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-7743e459-5133-4523-a600-c1829d60ce5c.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "returned_path": "/workspace/generated_images/exec-7743e459-5133-4523-a600-c1829d60ce5c.png",
+    "retained_copy_path": "/workspace/work/lab_assets/notice-02-v2.png",
+    "dimensions_px": [
+      1024,
+      1536
+    ],
+    "qa": {
+      "text": "共同副标题、只是跑一夜，也要有人负责两行新大标题、风口不堆物卡片、底部两行动作及编号逐字目视核对准确。",
+      "scene": "纸箱书本遮挡风口，上部网孔清楚；没有增加人物、现场值夜暗示、烟或火苗。",
+      "notes": "没有发现本次文字编辑引入的安全图像问题。"
+    },
+    "qa_at": "2026-10-04T01:59:33.604204+00:00"
+  },
+  {
+    "id": "03",
+    "referenced_image_paths": [
+      "/workspace/generated_images/exec-fe9b3eed-b54a-4297-acea-41cc1cf3cc32.png"
+    ],
+    "transparent_background": false,
+    "prompt": "对给定的已完成海报做精准的中文文字编辑，保持原图1024×1536、2:3竖版、构图、背景、摄影设备/人物、颜色、橙色卡片、光影以及所有不需改变的文字完全不变。不要重新创作画面，不增加任何元素或文字。全部文字必须是清晰准确的简体中文，中文黑体笔画完整、无乱码、标点准确，维持原有深海军蓝和冷白留白设计。\n\n共同修改：顶部居中的系列名“有些风险，不会弹窗”原样保留。它下面原来一行“计算机与小型服务器实验室安全”，完整替换为一行新的副标题：“只有电脑的实验室，也不能掉以轻心。”。新副标题必须只有这一整行、完整居中，字重清楚且能读，合理调整字号使其在白边内完整排下，保留与系列名和大标题之间的精致间距。不得出现被替换的旧副标题；“只有电脑的实验室，也不能掉以轻心。”不得缺字、改字、多字或漏标点。\n\n本张03只替换共同副标题这一行，其他文字和画面全部原样保留。两行巨大的主标题“闻到焦糊味，”“别等系统报警。”绝不修改。底部三行安全动作和119数字全部保留。\n\n保持普通浅蓝衬衫、深色长裤成年研究者双手空空、背向左侧电脑设备，朝敞开门外的室内公共疏散走廊走，不能改变移动方向。门外必须继续是白墙、天花板、平整地面、纵深清晰的室内走廊，绝不变成阳台、露台或室外平台，不能增加栏杆、花园绿树。橙色提醒纸卡继续稳放在左侧桌面上，内容“人员安全优先”完整准确；牌子不得移回地面或堵住门口。出口与整个行走路径保持畅通。小电源适配器仅保留原有很轻的灰色烟丝，绝不增大烟雾，不新增火焰。电脑屏幕仍然平静抽象，不添加安全绿勾或自动告警。\n\n修改后全张指定文字应完整为：\n有些风险，不会弹窗\n只有电脑的实验室，也不能掉以轻心。\n闻到焦糊味，\n别等系统报警。\n人员安全优先\n远离、提醒，按预案撤离。\n不为保存数据停留，不返回取设备。\n发现或怀疑火情，在安全处及时拨打119。\n情景示意 · 03\n\n只替换副标题一行，其他不修改。",
+    "started_at": "2026-10-04 01:56:14 UTC",
+    "completed_at": "2026-10-04 01:58:23 UTC",
+    "status": "generated_and_visually_reviewed",
+    "output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-7ca244e0-3576-4ec2-8c10-cce5016ee769.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "returned_path": "/workspace/generated_images/exec-7ca244e0-3576-4ec2-8c10-cce5016ee769.png",
+    "retained_copy_path": "/workspace/work/lab_assets/notice-03-v2.png",
+    "dimensions_px": [
+      1024,
+      1536
+    ],
+    "qa": {
+      "text": "新共同副标题及保留的大标题、纸卡、底部三行动作、119与编号均逐字目视核对准确。",
+      "scene": "人物穿普通蓝衬衫、双手空着，背向设备走入室内走廊；出口与地面畅通，纸卡稳放桌上。未恢复阳台、地牌或白大褂。",
+      "notes": "保持原摄影风格，无本次编辑引入的安全图像变化。"
+    },
+    "qa_at": "2026-10-04T01:59:33.604273+00:00"
+  }
+]
